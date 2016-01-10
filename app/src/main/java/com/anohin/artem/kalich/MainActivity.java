@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     String sign = "";
-    String total = "";
     public Double oneDouble, twoDouble;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
