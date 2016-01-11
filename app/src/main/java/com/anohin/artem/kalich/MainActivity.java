@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         Button buttonS = (Button) findViewById(R.id.buttonS);
         Button buttonM = (Button) findViewById(R.id.buttonM);
         Button buttonD = (Button) findViewById(R.id.buttonD);
+        Button buttonP = (Button) findViewById(R.id.buttonP);
+        Button buttonR = (Button) findViewById(R.id.buttonR);
+        Button buttonDt = (Button) findViewById(R.id.buttonDt);
+
 
         button0.setOnClickListener(
                 new Button.OnClickListener(){
@@ -194,6 +198,44 @@ public class MainActivity extends AppCompatActivity {
 
                 }
         );
+        buttonP.setOnClickListener(
+                new Button.OnClickListener(){
+
+                    public void onClick(View v){
+                        TextView output = (TextView) findViewById(R.id.editText);
+                        oneDouble = Double.parseDouble(output.getText().toString());
+                            output.setText(Double.toString(oneDouble / 100));
+
+                    }
+
+                }
+        );
+        buttonR.setOnClickListener(
+                new Button.OnClickListener(){
+
+                    public void onClick(View v){
+                        TextView output = (TextView) findViewById(R.id.editText);
+                        oneDouble = Double.parseDouble(output.getText().toString());
+                        output.setText(Double.toString(Math.sqrt(oneDouble)));
+
+                    }
+
+                }
+        );
+        buttonDt.setOnClickListener(
+                new Button.OnClickListener(){
+
+                    public void onClick(View v){
+                        TextView output = (TextView) findViewById(R.id.editText);
+                        oneDouble = Double.parseDouble(output.getText().toString());
+                        Integer i = oneDouble.intValue();
+                        output.setText(Integer.toString(i)+ ".");
+
+                    }
+
+                }
+        );
+
 
         buttonE.setOnClickListener(
                 new Button.OnClickListener(){

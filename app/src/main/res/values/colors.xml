@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color_back_textValue">#FF000000</color>
+    <color name="colour_back_button">#FFFF7B00</color>
+    <color name="colour_back_button_top">#FFC0BABA</color>
+    <color name="top_button">#FFCAC8C8</color>
+    <color name="down_button">#FFE3E2E2</color>
+    <color name="textColour">#FFFFFFFF</color>
+    <color name="back_ramka">#FF000000</color>
 </resources>

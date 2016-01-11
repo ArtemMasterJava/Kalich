@@ -16,4 +16,7 @@
     <string name="ButtonSubtraction" >-</string>
     <string name="ButtonDivide" >/</string>
     <string name="ButtonMultiplication" >x</string>
+    <string name="ButtonDot" >.</string>
+    <string name="ButtonPercent" >%</string>
+    <string name="ButtonRoot" >√</string>
 </resources>
